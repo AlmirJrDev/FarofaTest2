@@ -1,0 +1,341 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Sansita Swashed', cursive
+}
+
+.header {
+
+    width: 1250px;
+    height: 100px;
+}
+
+.home {
+    float: right;
+    margin-top: -43px;
+
+}
+
+h1 {
+    padding-top: 30px;
+    padding-left: 30px;
+    color: white
+}
+
+ul {
+    margin-bottom: 10px;
+}
+
+li {
+    list-style-type: none;
+    display: inline-block;
+    padding-left: 20px;
+    font-size: large;
+    color: white;
+
+}
+
+
+
+.fotos {
+    position: absolute;
+    width: 1350px;
+    height: 450px;
+    object-fit: cover;
+
+}
+
+.setaesquerda {
+    position: relative;
+    width: 30px;
+    height: auto;
+    margin-top: 200px;
+    margin-left: 30px;
+    transform: rotate(180deg);
+
+
+}
+
+.setadireita {
+    position: relative;
+    width: 30px;
+    height: auto;
+    margin-top: 200px;
+    margin-right: 20px;
+    float: right;
+
+
+
+}
+
+
+
+.lema {
+    padding-left: 120px;
+    color: white;
+}
+
+body{
+    background-color:
+        #dc2f11;
+}
+
+.body {
+    background-color:
+        #dc2f11;
+}
+
+.body2 {
+    background-color: #A83010;
+    width: 1350px;
+    height: 2000px;
+
+}
+
+select {
+    margin-top: 100px;
+    margin-left: 25px;
+    background-color: #fff;
+    border-radius: 10px;
+    width: 400px;
+    height: 45px;
+    padding-left: 30px;
+    cursor: pointer;
+    font-size: larger;
+
+}
+
+.pedido {
+   position: absolute;
+    margin-top: 365px;
+    border-radius: 10px;
+    width: 450px;   
+    height: 450px;
+    margin-left: 420px;
+    cursor: pointer;
+    background-color: #F5C30F;
+
+}
+
+h3{
+    padding-left: 155px;
+    padding-top: 50px;
+}
+
+.sobre{
+    position: absolute;
+    margin-top: 1000px;
+    width: 1225px;   
+    height: 600px;
+    background-color: #F5C30F;
+    margin-left: 54px;
+    border-radius: 10px;
+
+        
+}
+
+.farofaft{
+    width: 300px;
+    border-radius: 20px;
+    margin-left: 200px;
+    margin-top: 100px;
+    transition: 0.5s ease-in-out;
+    
+}
+
+.farofaft:hover{    
+    transform: rotate(-10deg);
+}
+
+
+
+
+.ingredientes{
+    position: absolute;
+    margin-left: 700px;
+    margin-top: -300px;
+    font-size: larger;
+    
+}
+
+h4{
+    position: absolute;
+    margin-left: 700px;
+    margin-top:-350px;
+    font-size: x-large;
+    
+    
+
+}
+
+
+.fazerpedido{
+    text-decoration: none;
+    color: #fff;
+    font-size: 19px;
+    
+
+  
+}
+
+
+.link{
+    position: absolute;
+    padding-left: 5px;
+    padding-top: 10px;
+    margin-left: 920px;
+    margin-top: -180px;
+    background-color: black;
+    width: 120px;
+    height: 40px;
+    border-radius: 10px;
+}
+
+.feijoada{
+    margin-top: 100px;
+    margin-left: 25px;
+    background-color: #fff;
+    border-radius: 10px;
+    width: 400px;
+    height: 45px;
+    padding-left: 30px;
+    
+    font-size: larger;
+}
+
+.fundofeijoada{
+    position: absolute;
+    margin-top: 365px;
+    border-radius: 10px;
+    width: 1225px;   
+    height: 600px;
+   
+    cursor: pointer;
+    background-color: #F5C30F;
+}
+
+.textfeijoada{
+
+    position: absolute;
+    margin-left: 700px;   
+    font-size: x-large;  
+    margin-top: 150px;
+}
+
+.ingfeijoada{
+    margin-left: 670px;
+    margin-top: 200px;
+}
+
+.link1{
+    position: absolute;
+    padding-left: 5px;
+    padding-top: 10px;
+    margin-left: 900px;
+    margin-top: -50px;
+    background-color: black;
+    width: 119px;
+    height: 40px;
+    border-radius: 10px;
+}
+
+.encomendar{
+    text-decoration: none;
+    color: #fff;
+    
+}
+
+.link1:hover {
+    background-color: #dc2f11;
+    
+}
+
+.link:hover {
+    background-color: #dc2f11;
+    
+}
+
+.feijoadaft{
+    position: absolute;
+    width: 400px;
+    border-radius: 20px;
+    margin-left: 200px;
+    margin-top: 100px;
+    transition: 0.5s ease-in-out;
+
+}
+
+.feijoadaft:hover{    
+    transform: rotate(-10deg);
+    
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.txtprodutos{
+    position: absolute;
+    margin-left: 580px;
+    margin-top: 220px;
+    font-size: 30px;
+    color: white;
+}
+
+.footer{
+    position: absolute;
+    background-color: #F5C30F; 
+    width: 1350px;
+    height: 200px; 
+
+}
+
+.txtcontatos{
+    font-size: 30px;
+    position: absolute; 
+    margin-top: 1900px;
+    margin-left: 600px;
+    color: white;
+
+}
+
+
+.fundotxt{
+    font-size: 40px;
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 60px;
+}
+
+.fundop{
+    font-size: 20px;
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 170px;
+
+}
+
+.fundopcontato{
+    font-size: 20px;
+    position: absolute;
+    margin-top: 60px;
+    margin-left:980px;
+
+
+}
+
+
+
+@media (max-width: 760px) {
+  h1{
+      display: flex;
+      justify-content: center;
+      align-items: center; 
+  }
+
+  body {
+    
+  }
+}
