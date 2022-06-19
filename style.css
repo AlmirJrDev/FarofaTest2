@@ -403,4 +403,59 @@ a{
     margin-left: 30%;
     margin-top: 30px;
 }
+
+.sobre{
+    width: 80vw;
+    margin-left: 39px;
+}
+
+.textfarofa{
+    position: absolute;
+    margin-left: 23px;
+    margin-top: -370px;
+    font-size: 23px;
+}
+
+.farofaft{
+    position: relative;
+    width: 70vw;
+    height: 300px;
+    object-fit: cover;
+    
+    
+    margin-left: 20px;
+}
+
+.ingredientes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 15px;
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+.link{
+    margin-left: 57%;
+    margin-top: 130px;
+    
+}
+
+.footer{
+    margin-top: -170px;
+    height: 400px;
+}
+
+.fundotxt{
+    margin-left: 40px;
+}
+
+.fundopcontato{
+    margin-left: 80px;
+    margin-top: 180px;
+}
+    
+
+
+
 }
