@@ -330,12 +330,77 @@ a{
 
 @media (max-width: 760px) {
   h1{
-      display: flex;
-      justify-content: center;
-      align-items: center; 
+     
+     margin-left:50px;
+     font-size: 30px;
+
+  }
+  .lema{
+ 
+      margin-left: 19px;
+      font-size: 20px;
   }
 
-  body {
+  .header{
     
   }
+
+  ul{
+  
+      
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    margin-left: -1220px;
+    margin-top: 70px;
+            
+  }
+
+  li{
+      
+      font-size: 20px;
+  }
+
+  
+  body {
+      overflow-x: hidden;
+    
+  }
+
+  .fotos{
+      width: 100vw;
+      height: 30vh;
+  }
+
+  .fundofeijoada{
+      width: 80vw;
+      margin-left: -15px;
+  }
+
+  .textfeijoada{
+      position: absolute;
+      margin-left: 35px;
+      margin-top: 30px;
+  }
+
+  .feijoadaft{
+    width: 70vw;
+    
+    margin-left: 20px;
+  }
+
+.ingfeijoada{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 0;
+    margin-top: 320px;
+    font-size: 15px;
+}
+
+.link1{
+    margin-left: 30%;
+    margin-top: 30px;
+}
 }
