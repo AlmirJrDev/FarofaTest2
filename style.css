@@ -2,19 +2,28 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Sansita Swashed', cursive
+    font-family: 'Inter', sans-serif;
 }
 
-.header {
+header {
+    width: 100%;
+    height: 20vh;
+    background-color: #fe4e00 ;
+    margin-bottom: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 
-    width: 1250px;
-    height: 100px;
+    position: fixed;
 }
 
 .home {
-    float: right;
-    margin-top: -43px;
-
+    margin-top: 10px;
+    margin-right: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
 }
 
 h1 {
@@ -23,176 +32,42 @@ h1 {
     color: white
 }
 
-ul {
-    margin-bottom: 10px;
-}
-
-li {
-    list-style-type: none;
-    display: inline-block;
-    padding-left: 20px;
-    font-size: large;
-    color: white;
-
-}
-
-
-
 .fotos {
-    position: absolute;
-    width: 1350px;
-    height: 450px;
+    width: 100vw;
+    height: 60vh;
     object-fit: cover;
-
 }
-
-.setaesquerda {
-    position: relative;
-    width: 30px;
-    height: auto;
-    margin-top: 200px;
-    margin-left: 30px;
-    transform: rotate(180deg);
-
-
-}
-
-.setadireita {
-    position: relative;
-    width: 30px;
-    height: auto;
-    margin-top: 200px;
-    margin-right: 20px;
-    float: right;
-
-
-
-}
-
-
 
 .lema {
     padding-left: 120px;
     color: white;
 }
 
-body{
-    background-color:
-        #dc2f11;
+body {
+    background-color: #741012;
+    overflow-x: hidden;
 }
 
-.body {
-    background-color:
-        #dc2f11;
-}
-
-.body2 {
-    background-color: #A83010;
-    width: 1350px;
-    height: 2000px;
-
-}
-
-select {
-    margin-top: 100px;
-    margin-left: 25px;
-    background-color: #fff;
-    border-radius: 10px;
-    width: 400px;
-    height: 45px;
-    padding-left: 30px;
-    cursor: pointer;
-    font-size: larger;
-
-}
-
-.pedido {
-   position: absolute;
-    margin-top: 365px;
-    border-radius: 10px;
-    width: 450px;   
-    height: 450px;
-    margin-left: 420px;
-    cursor: pointer;
-    background-color: #F5C30F;
-
-}
-
-h3{
+h3 {
     padding-left: 155px;
     padding-top: 50px;
 }
 
-.sobre{
-    position: absolute;
-    margin-top: 1000px;
-    width: 1225px;   
-    height: 600px;
-    background-color: #F5C30F;
-    margin-left: 54px;
-    border-radius: 10px;
-
-        
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 
-.farofaft{
-    width: 300px;
-    border-radius: 20px;
-    margin-left: 200px;
-    margin-top: 100px;
-    transition: 0.5s ease-in-out;
-    
-}
-
-.farofaft:hover{    
-    transform: rotate(-10deg);
-}
-
-
-
-
-.ingredientes{
-    position: absolute;
-    margin-left: 700px;
-    margin-top: -300px;
-    font-size: larger;
-    
-}
-
-h4{
-    position: absolute;
-    margin-left: 700px;
-    margin-top:-350px;
-    font-size: x-large;
-    
-    
-
-}
-
-
-.fazerpedido{
+.fazerpedido {
     text-decoration: none;
     color: #fff;
     font-size: 19px;
-    
-
-  
 }
 
-
-.link{
-    position: absolute;
-    padding-left: 5px;
-    padding-top: 10px;
-    margin-left: 920px;
-    margin-top: -180px;
-    background-color: black;
-    width: 120px;
-    height: 40px;
-    border-radius: 10px;
-}
-
-.feijoada{
+.feijoada {
     margin-top: 100px;
     margin-left: 25px;
     background-color: #fff;
@@ -200,262 +75,210 @@ h4{
     width: 400px;
     height: 45px;
     padding-left: 30px;
-    
     font-size: larger;
 }
 
-.fundofeijoada{
-    position: absolute;
-    margin-top: 365px;
+.fundofeijoada {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    margin-bottom: 2rem;
     border-radius: 10px;
-    width: 1225px;   
+    width: 100%;   
+    max-width: 1225px;
     height: 600px;
-   
-    cursor: pointer;
     background-color: #F5C30F;
 }
 
-.textfeijoada{
-
-    position: absolute;
-    margin-left: 700px;   
-    font-size: x-large;  
-    margin-top: 150px;
+.info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 100px;
 }
 
-.ingfeijoada{
-    margin-left: 670px;
-    margin-top: 200px;
+.divtext {
+    margin-bottom: 2rem;
 }
 
-.link1{
-    position: absolute;
-    padding-left: 5px;
-    padding-top: 10px;
-    margin-left: 900px;
-    margin-top: -50px;
-    background-color: black;
-    width: 119px;
-    height: 40px;
-    border-radius: 10px;
+.textfeijoada {
+    font-size: 30px;
 }
 
-.encomendar{
+.ingfeijoada {
+    margin-bottom: 2rem;
+}
+
+.link1 {
+    background: #000;
+    width: 120px;
+    height: 30px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    transition: all .2s ease-in-out;
+}
+
+.encomendar {
     text-decoration: none;
     color: #fff;
-    
 }
 
 .link1:hover {
-    background-color: #dc2f11;
-    
+    background-color: #303030;
+    width: 130px;
+    height: 40px;
+    font-size: 18px;
+    transition: all .2s ease-in-out;
 }
 
-.link:hover {
-    background-color: #dc2f11;
-    
-}
-
-.feijoadaft{
-    position: absolute;
+.feijoadaft {
     width: 400px;
     border-radius: 20px;
-    margin-left: 200px;
-    margin-top: 100px;
     transition: 0.5s ease-in-out;
-
 }
 
-.feijoadaft:hover{    
-    transform: rotate(-10deg);
-    
+.foto-frf {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-a{
+.farofaft {
+    width: 300px;
+    object-fit: cover;
+    border-radius: 20px;
+    transition: 0.5s ease-in-out;
+}
+
+.feijoadaft:hover {    
+    transform: rotate(-10deg); 
+}
+
+a {
     text-decoration: none;
     color: #fff;
 }
 
+
 .txtprodutos{
-    position: absolute;
-    margin-left: 580px;
-    margin-top: 220px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90vw;
+   
     font-size: 30px;
     color: white;
 }
 
-.footer{
-    position: absolute;
-    background-color: #F5C30F; 
-    width: 1350px;
-    height: 200px; 
+footer{
+    display: flex;
+    justify-content: space-between;
+    center-align: center;
+
+    background-color: #e67f0d;
+    width: 100%;
+    margin: 0 auto;
+    height: 150px; 
 
 }
 
 .txtcontatos{
-    font-size: 30px;
-    position: absolute; 
-    margin-top: 1900px;
-    margin-left: 600px;
-    color: white;
-
+    
 }
 
+.slogan{
+    margin-left: 2rem;
+    margin-top: 2rem;
+}
 
 .fundotxt{
-    font-size: 40px;
-    position: absolute;
-    margin-top: 50px;
-    margin-left: 60px;
+  font-size: 18px;
 }
 
 .fundop{
-    font-size: 20px;
-    position: absolute;
-    margin-top: 100px;
-    margin-left: 170px;
+    font-weight: bold;
+    padding-left: 5rem;
+    
+}
 
+.contato{
+    margin-right: 2rem;
+    margin-top: 2rem;
 }
 
 .fundopcontato{
-    font-size: 20px;
-    position: absolute;
-    margin-top: 60px;
-    margin-left:980px;
 
-
+    font-weight: bold;
 }
 
 
 
-@media (max-width: 760px) {
-  h1{
-     
-     margin-left:50px;
-     font-size: 30px;
-
-  }
-  .lema{
- 
-      margin-left: 19px;
-      font-size: 20px;
-  }
-
-  .header{
-    
-  }
-
-  ul{
-  
+@media (max-width: 768px) {
+    header {
       
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    margin-left: -1220px;
-    margin-top: 70px;
-            
-  }
-
-  li{
-      
-      font-size: 20px;
-  }
-
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+    }
   
-  body {
-      overflow-x: hidden;
-    
-  }
+    .home {
+      flex-direction: row;
+      gap: 0.5rem;
+    }
 
-  .fotos{
+    .lema {
+        margin-left: 2rem;
+        color: white;
+    }
+  
+    h1 {
+      padding-top: 20px;
+      padding-left: 20px;
+      font-size: 1.5rem;
+    }
+  
+    .fotos {
       width: 100vw;
-      height: 30vh;
+    }
+  
+    .lema {
+      padding-left: 20px;
+    }
+  
+    h3 {
+      padding-left: 20px;
+      padding-top: 30px;
+    }
+  
+    .title {
+      
+    }
+  
+    .feijoada {
+      margin-top: 50px;
+      margin-left: 0;
+      width: 100%;
+      height: 60px;
+      padding-left: 20px;
+    }
+  
+    .fundofeijoada {
+      
+    }
+  
+    .info {
+    
+    }
+  
+    .txtprodutos {
+  
+    }
   }
-
-  .fundofeijoada{
-      width: 80vw;
-      margin-left: -15px;
-  }
-
-  .textfeijoada{
-      position: absolute;
-      margin-left: 35px;
-      margin-top: 30px;
-  }
-
-  .feijoadaft{
-    width: 70vw;
-    
-    margin-left: 20px;
-  }
-
-.ingfeijoada{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-left: 0;
-    margin-top: 320px;
-    font-size: 15px;
-}
-
-.link1{
-    margin-left: 30%;
-    margin-top: 30px;
-}
-
-.sobre{
-    width: 80vw;
-    margin-left: 39px;
-}
-
-.textfarofa{
-    position: absolute;
-    margin-left: 23px;
-    margin-top: -370px;
-    font-size: 23px;
-}
-
-.farofaft{
-    position: relative;
-    width: 70vw;
-    height: 300px;
-    object-fit: cover;
-    
-    
-    margin-left: 20px;
-}
-
-.ingredientes{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-left: 15px;
-    margin-top: 10px;
-    font-size: 15px;
-}
-
-.link{
-    margin-left: 57%;
-    margin-top: 130px;
-    
-}
-
-.footer{
-    margin-top: -170px;
-    height: 400px;
-}
-
-.fundotxt{
-    margin-left: 40px;
-}
-
-.fundopcontato{
-    margin-left: 80px;
-    margin-top: 180px;
-}
-    
-
-
-
-}
+  
