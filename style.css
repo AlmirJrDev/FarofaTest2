@@ -17,6 +17,7 @@ header {
   position: fixed;
 }
 
+
 .home {
   margin-top: 10px;
   margin-right: 2rem;
@@ -159,6 +160,9 @@ h3 {
   transform: rotate(-10deg);
 }
 
+.farofaft:hover {
+    transform: rotate(-10deg);
+  }
 a {
   text-decoration: none;
   color: #fff;
@@ -230,6 +234,7 @@ footer {
     margin: 0 auto;
     flex-direction: row;
     gap: 0.5rem;
+    margin-bottom: 2rem;
   }
 
   .lema {
@@ -313,10 +318,21 @@ footer {
   }
 
   .slogan {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 auto;
     margin-bottom: 2rem;
+  }
+  
+  .fundotxt{
+    margin: 0 auto;
   }
 
   .fundop {
+    padding-left: 0rem;
+    margin: 0 auto;
   }
 
   .contato {
